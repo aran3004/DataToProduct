@@ -1,4 +1,4 @@
-# DataToProduct - Data Product to Visualize Environmental and Economic Data
+# Data Product to Visualize Environmental and Economic Data
 
 Description:
 This repo shows the work for a Data to Product submission. We focused specifically on creating a tool to visualise environmental and economic changes to countries over the years. This visualisation tool focuses on trying to be responsive and allow users to easily analyse data through a combination of choropleth plots and time graphs. 
