@@ -1,0 +1,113 @@
+.container-fluid {
+  font-family: Lato, sans-serif;
+}
+body {
+  background-color: #E3D3C3; /* Green color with low opacity */
+}
+
+.help-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000; /* Ensure it's above other elements */
+  border-style: solid;
+  border-width: 1px; 
+  border-color: #B40404;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);  /* Optional: adds shadow for better visibility */
+}
+
+.sliderPanel {
+  background-color: rgba(255, 255, 255, 0.8);  /* Semi-transparent background */
+  padding: 15px;
+  height: 140px;
+  width: 300px;
+  position: absolute;
+  bottom: 10px;  /* Position from the bottom */
+  right: 20px;    /* Position from the left */
+  z-index: 400;  /* Ensure it's above the map */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);  /* Optional: adds shadow for better visibility */
+  margin: 10px;  /* Invisible space outside the panel */
+  font-size: 1px;
+}
+
+
+#appTitle h2 {
+  text-align: center;  /* Center the title */
+  color: ##005C0E;     /* Set the text color */
+  font-size: 2em;     /* Increase the font size */
+  margin-bottom: 20px; /* Add some space below the title */
+  font-weight: bold;  /* Make the font bold */
+}
+
+.infoPanel {
+  background-color: rgba(255, 255, 255, 0.8);  /* Semi-transparent background */
+  padding: 15px;
+  height: 210px;
+  position: absolute;
+  bottom: 5px;  /* Position from the bottom */
+  left: 20px;    /* Position from the left */
+  z-index: 400;  /* Ensure it's above the map */
+  margin: 10px;  /* Invisible space outside the panel */
+
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);  /* Optional: adds shadow for better visibility */
+}
+
+.leaflet-control-layers.leaflet-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.leaflet-control .legend-title {
+    max-width: 150px; /* Adjust the width as needed */
+    word-wrap: break-word;
+}
+
+.optionsPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff; /* Light gray background */
+  padding: 20px;
+  height: 290px;
+  
+  border-style: solid;
+  border-width: 1px; 
+  border-color: #B40404;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);  /* Optional: adds shadow for better visibility */
+}
+
+#emptyBox {
+  height: 20px;
+}
+
+.smallPlot {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff; /* Light gray background */
+
+  border-style: solid;
+  border-width: 1px; 
+  border-color: #B40404;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);  /* Optional: adds shadow for better visibility */
+}
+
+#plot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#map {
+  border-style: solid;
+  border-width: 1px; 
+  border-color: #B40404;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);  /* Optional: adds shadow for better visibility */
+}
